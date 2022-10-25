@@ -14971,6 +14971,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1702780396215058010, guid: 8166a05c399f680489ddb47423c37fec, type: 3}
+      propertyPath: m_TerrainData
+      value: 
+      objectReference: {fileID: 15600000, guid: f115000ef58066249a18f1da3ef87803, type: 2}
     - target: {fileID: 1822816992777735349, guid: 8166a05c399f680489ddb47423c37fec, type: 3}
       propertyPath: m_RootOrder
       value: 3
