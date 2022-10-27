@@ -1,17 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class UIManager : MonoBehaviour
-{
-    public GameObject canvas;
-
-    private void OnTriggerExit(Collider collision)
-    {
-        Debug.Log(collision);
-        if (collision.CompareTag("Player"))
-        {
-            canvas.SetActive(false);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c65fc0dd1ed83489852be957112aaf3982b252c300c8ae40028299924f0b731
+size 348
