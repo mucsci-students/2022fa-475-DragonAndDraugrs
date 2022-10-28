@@ -1,28 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class reset : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        GameObject collidedWith = GetComponent<Collider>().gameObject;
-        if (other.tag.Equals("Player"))
-        {
-            SceneManager.LoadScene(sceneName: "VolcanoLevel");
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:60739e8b2dddb5f15d1171359f06debd01155437879f817f3cab97ba89338890
+size 571
