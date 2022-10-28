@@ -1,20 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class PlayerManager : MonoBehaviour
-{
-    #region Singleton
-
-    public static PlayerManager instance;
-
-    void Awake(){
-
-        instance = this;
-    }
-    #endregion
-
-    public GameObject Player;
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:732f708df683c37ebf704d2eada4db823456fc0098efd2e860960f7028ae6cda
+size 291
