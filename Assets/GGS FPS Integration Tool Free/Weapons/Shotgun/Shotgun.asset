@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31cd28973bc1640e09681e464c36f345, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  WeaponPrefab: {fileID: 4436562937564140139, guid: 9cdb7a9296fe2432396e8f07c7aaeeb2,
+    type: 3}
+  BarrelFlashPrefab: {fileID: 1198331454705934, guid: b88b36e14ef014a4488e63fe05fdd429,
+    type: 3}
+  IsPositionOffset: 0
+  PositionOffset: {x: 0, y: 0, z: 0}
+  CrosshairSprite: {fileID: 21300000, guid: 63fa0c64fdaae426fa75f10e38d5b044, type: 3}
+  CrosshairColour: {r: 1, g: 1, b: 1, a: 1}
+  FireAudio: {fileID: 8300000, guid: 831f16abe904e4474943c44cd7b7780f, type: 3}
+  ReloadAudio: {fileID: 8300000, guid: 42d3519384a91a149b82c5996ddaa939, type: 3}
+  SwitchInAudio: {fileID: 8300000, guid: 24cc26eed13fa459896484beed8239f3, type: 3}
+  SwitchOutAudio: {fileID: 8300000, guid: 3e13d838b778d43fe99da1dd0fa764e1, type: 3}
+  WeaponAnimatorController: {fileID: 9100000, guid: f5f20380392a54be684635ec373233d8,
+    type: 2}
+  FireAnimationParameterName: Firing
+  ReloadAniamtionParameterName: Reloading
+  SwitchAnimationParameterName: Switching
+  AimAnimationParameterName: Aiming
+  RunAnimationParameterName: Running
+  WalkAnimationParameterName: Walking
+  JumpAnimationParameterName: Jumping
+  MouseXAnimationParameterName: Mouse X
+  MouseYAnimationParameterName: Mouse Y
+  BarrelFlashSpawnDirectory: Shotgun/Aimbody/[Flash]
+  ProjectileSpawnDirectory: Shotgun/Aimbody/[Pro]
+  CartridgeSpawnDirectory: Shotgun/Aimbody/[Cart]
+  OutputTypeProperty: 0
+  FiringTypeProperty: 0
+  ShotsPerBurst: 1
+  ShotsPerSecond: 2
+  OutputPerShot: 5
+  DamagePerShot: 50
+  AimSpread: 0.03
+  HipSpread: 0.045
+  MovementSpread: 0.06
+  AmmoProperty: {fileID: 11400000, guid: 00c295257293e4464955f02284b7be90, type: 2}
+  Capacity: 6
+  AmmoLossPerShot: 1
+  ReloadingTypeProperty: 1
+  AmmoAddedPerReload: 1
+  AimingTransitionTime: 0.25
+  ReloadingTime: 0.5
+  SwitchingTime: 0.75
+  RunningRecoveryTime: 0.25
+  IncrementalReloadRecoveryTime: 0.25
+  RayModeProperty:
+    ImpactPrefab: {fileID: 1876966866678746, guid: cdf9ef97b2ea14ea6a88c6f801553591,
+      type: 3}
+    Range: 100
+    ImpactForce: 25
+  ProjectileModeProperty:
+    ProjectilePrefab: {fileID: 0}
+    LaunchForce: 100
+  EjectedCartridgeProperty:
+    CartridgePrefab: {fileID: 1655932066338330, guid: c867c8b1450e244548b791ba4c132f6a,
+      type: 3}
+    EjectionTrajectory: {x: 1, y: 0.2, z: 0}
+    EjectionForce: 5
