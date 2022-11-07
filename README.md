@@ -2,6 +2,8 @@
 
 Developed by Noah Barger, Logan Eller, and Christian Shepperson
 
+Special thanks to: Josh Carney and Matt Steck for voice lines
+
 Dragons and Draugrs : An Action Exploration RPG Experience. Jump into an imersive open-world 3D game, where there is a surprise around every corner. Can you complete all three levels and slay the boss? 
 
 Travel through large landscapes defeating enemies to level up and banish the evil dragons of the land
